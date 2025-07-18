@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Web Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<button id="btn">View Portfolio</button>
+  
+  <header>
+    <div class="logo">
+        <img src="img/Depth 4, Frame 0.svg" alt="My Web Portfolio">
+        <span>My Web Portfolio</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="btn">View Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <section class="hero">
+    <h1>Welcome to My Web Portfolio</h1>
+    <p>I'm a passionate web developer specializing in HTML and CSS. Explore my projects below to see my skills in action.</p>
+    <button href="#" class="btn">View Portfolio</button>
+  </section>
+
+  
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a dedicated web developer with a strong foundation in HTML and CSS. My goal is to create visually appealing and user-friendly websites that meet the needs of my clients. I am constantly learning and improving my skills to stay up-to-date with the latest web development trends.</p>
+  </section>
+
+  
+  <section class="services">
+    <h2>Services</h2>
+    <div class="service-boxes">
+      <div class="service">
+        <img src="img/Depth 6, Frame 1.jpg" alt="Web Design">
+        <h3>Web Design</h3>
+        <p>Creating visually appealing and responsive website designs tailored to your brand.</p>
+      </div>
+      <div class="service">
+        <img src="img/Depth 6, Frame 1 (1).jpg" alt="Front-End Development">
+        <h3>Front-End Development</h3>
+        <p>Implementing designs using HTML, CSS, and JavaScript to create interactive and dynamic websites.</p>
+      </div>
+      <div class="service">
+        <img src="img/Depth 6, Frame 1 (2).jpg" alt="Website Maintenance">
+        <h3>Website Maintenance</h3>
+        <p>Providing ongoing support and updates to ensure your website remains functional and secure.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+    <p>&copy; 2025 My Web Portfolio. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <h3>login</h3>
+    <input type="email" value="email">
+    <input type="password" value="password">
+    <br>
+    <button>Submit</button>
+  </div>
+</body>
+<script src="script.Js"></script>
+</html>
